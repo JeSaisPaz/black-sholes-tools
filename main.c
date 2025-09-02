@@ -60,7 +60,7 @@ int main() {
 }
 
 // =============================
-// Standard Normal PDF
+// Derivative of N(X)
 // =============================
 double nPrime(double x) {
     return (1.0 / sqrt(2.0 * pi)) * exp(-0.5 * x * x);
